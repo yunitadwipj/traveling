@@ -1,0 +1,17 @@
+
+@media (max-width:1000px){
+.contents{
+    width: 50%;
+    margin-bottom:50px;
+    padding:0 50px;
+}
+.content-view{
+    width: 50%;
+    margin-left:0px;
+    padding:0px 20px;
+}
+.service{
+    width:inherit;
+}
+}
+

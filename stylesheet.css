@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(../WebDasar/assets/images/bedugul.jpg);
+    background-size: cover;
+    color: black;
+    text-align: right;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 1.0;
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .cursive{
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+  }
+  
+  .travel-wrapper {
+    height: 200px;
+    background-color: #e6e1e1;
+  }
+
+  .travel {
+    float: left;
+    width: 15%;
+  }
+  
+  .travel-icon {
+    padding-top:10px;
+    text-align: center;
+    position: relative;
+    bottom:50px;
+    left:200%;
+  }
+
+  .travel-icon img{
+      width: 150px;
+      height: 160px;
+  }
+  
+  .travel-icon p {
+    position: absolute;
+    top: 110px;
+    font-size:20px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Sriracha', cursive;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .content-wrapper{
+    float: left;
+    margin-top: 5px;
+    padding: 0 70px;
+    font-family: 'Sriracha', cursive;
+  }
+
+  .contents{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+  }
+
+  .content-view, .content-info{
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .content-view img{
+      width: 350px;
+      height: 300px;
+      padding: 10px 100px;
+  }
+
+  .content-info li{
+    list-style: none;
+    float: left;
+    padding:0 20px;
+  }
+
+  .btn1,.btn2,.btn3{
+    color: black;
+    border-bottom: 2px solid black;
+  }
+
+  .btn1:hover{
+    color: rgb(19, 177, 143);
+    border-bottom: 2px solid rgb(19, 177, 143);
+  }
+  .btn2:hover{
+    color: rgb(19, 177, 143);
+    border-bottom: 2px solid rgb(19, 177, 143);
+  }
+  .btn3:hover{
+    color: rgb(19, 177, 143);
+    border-bottom: 2px solid rgb(19, 177, 143);
+  }
+
+  .btn4{
+    padding: 12px 24px;
+    background-color: rgb(19, 177, 143);
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-right: 30px;
+    border: 2px solid rgb(19, 177, 143);
+  }
+  
+  .btn4:hover {
+    opacity: 1;
+  }
+  
+  .btn5{
+    padding: 12px 24px;
+    background-color:white;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    border: 2px solid black;
+  }
+  
+  .btn5:hover {
+      opacity:1;
+      background-color: rgb(219, 214, 214);
+  }
+
+ .service {
+    height: 500px;
+    padding-bottom: 80px;
+  }
+  
+  .header-service {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .header-service h2 {
+    font-weight: 30px;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .services *{
+    box-sizing:border-box ;
+    text-align: center;
+  }
+ 
+  .service-item i{
+      margin:10px 10px;
+  }
+  .service-item{
+    border: 2px solid black;
+    height: 50%px;
+    width: 31%;
+    margin: 10px 10px ;
+    float: left;
+  }
+
+  .service-item p{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  
+  
